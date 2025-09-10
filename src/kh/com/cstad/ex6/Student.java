@@ -16,9 +16,9 @@ public class Student {
 
     public String getResult(){
         if(getAverage()>50){
-            System.out.println("Passed");
+            return "Passed";
         }else {
-            System.out.println("failed");
+            return "Failed";
         }
     }
 
